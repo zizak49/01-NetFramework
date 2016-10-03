@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("VersionsExe")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP")]
+[assembly: AssemblyCompany("VSITE")]
 [assembly: AssemblyProduct("VersionsExe")]
-[assembly: AssemblyCopyright("Copyright © HP 2010")]
+[assembly: AssemblyCopyright("Copyright © VSITE 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

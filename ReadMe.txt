@@ -1,20 +1,8 @@
 Hello World
 ===========
 
-Jednostavni primjer za pregled u IL Disassembleru, da se vidi što je sve u modulu.
-
-
-ConfigurationFile
-=================
-
-Ilustrira kako se pomoæu konfiguracijske datoteke App.config (koju prevoditelj 
-automatski preimenuje u ConfigurationFile.exe.config i preslika u izvedbeno 
-kazalo) može odrediti koja æe se verzija .NET okruženja koristiti tijekom 
-izvoðenja. 
-Ako .config datoteke nema, pokrenut æe se .NET okruženje za koje je aplikacija
-generirana; ako nema te verzije, traži se najviša verzija, veæa od ciljane.
-
-NAPOMENA: .NET 3.0 i .NET 3.5 aplikacije se pokreæe s CLR 2.0.50727.
+Jednostavni primjer za pregled Visual Studio Solutiona, strukture kazala.
+Pregled koda u IL Disassembleru, da se vidi što je sve u modulu.
 
 
 ClsCompliant1 i ClsCompliant2
@@ -39,17 +27,6 @@ VersionsExe i VersionsDLL
 =========================
 Primjer strogog verzioniranja.
 
-Projek VersionsExe koristi VersionsDLL, koji je "potpisan" sigurnosnim kljuèem.
+Projekt VersionsExe koristi VersionsDLL, koji je "potpisan" sigurnosnim kljuèem.
 Promijenimo li verziju DLL-a, a Exe ne prevedemo ponovno za tu novu verziju,
 VersionsExe æe se srušiti (baciti iznimku).
-
-
-Izbjegavanje koda
-=================
-
-Buduæi da prilikom izvoðenja programa JIT prevoditelj kôd prevodi u strojni jezik 
-metodu po metodu, moguæe je sprijeèiti izvoðenje ako se program izvodi pod
-neodgovarajuæom verzijom .NET okruženja.
-MetodaKojuPozivamo() provjerava je li verzija CLR-a veæa od 3.5 i samo u tom
-sluèaju poziva metodu MetodaKojuŽelimoIzbjeæi(). (verziju CLR-a možemo 
-kontrolirati pomoæu konfiguracijske datoteke).
