@@ -5,6 +5,13 @@ Jednostavni primjer za pregled Visual Studio Solutiona, strukture kazala.
 Pregled koda u IL Disassembleru, da se vidi što je sve u modulu.
 
 
+Pozivi metoda
+=============
+
+Pokazuje kako prvi poziv metode traje puno dulje jer JIT mora prvo prevesti
+tu metodu u strojni kod. Sljedeæi pozivi iste metode su puno kraæi.
+
+
 ClsCompliant1 i ClsCompliant2
 =============================
 Primjer znaèenja CLS compliant atributa
